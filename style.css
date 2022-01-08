@@ -1,0 +1,96 @@
+.navbar {
+	flex-wrap: nowrap;
+	border-bottom: 0.5px solid white;
+}
+
+.navbar-expand-lg {
+	justify-content: space-around;
+}
+
+.inputbox {
+	border: none;
+	background: none;
+	padding-right: 5rem;
+	overflow: visible;
+	color: white !important;
+}
+
+::placeholder {
+	font-size: 12px;
+}
+
+.inputform {
+	position: relative;
+	padding-left: 3rem;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+a.navbar-a:hover {
+	color: white;
+	border-bottom: 2px solid crimson;
+}
+
+.gift {
+	font-size: 14px;
+}
+
+h6 {
+	position: absolute;
+	top: 1rem;
+	right: 19rem;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.intro-header-title {
+	position: relative;
+}
+
+.intro-header-animated {
+	color: white;
+	position: relative;
+}
+
+.tags-bar {
+	margin-top: 100px;
+	position: relative;
+}
+
+.tags-bar a {
+	padding: 15px 30px;
+	background: #3e4948;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+	border-left: 2px solid #fff;
+	margin-top: 0px;
+	margin-right: 0px;
+	text-decoration: none;
+}
+
+.tags-bar a:hover {
+	background: #ff5300;
+}
+
+.icon-a {
+	margin-right: 7px;
+}
+
+.tags-active {
+	border-radius: 10px 0px 0px 10px !important ;
+	background: #ff5300 !important;
+	border: none !important;
+}
+
+.tags-stay {
+	border-radius: 0px 10px 10px 0;
+}
